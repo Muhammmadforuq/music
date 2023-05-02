@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  body{
+    @apply font-inter-tight;
+  }
+
+  .swiper-pagination .swiper-pagination-bullet{
+    @apply !bg-white/30
+  }
+
+  .swiper-pagination .swiper-pagination-bullet-active{
+    @apply !bg-white;
+  }
+
+  .swiper-button-disabled{
+    @apply opacity-0;
+  }
+
+  .swiper-pagination2 .swiper-pagination-bullet-active{
+    @apply !bg-black;
+  }
+
+  .overflow-x-hidden .swiper{
+    overflow: visible !important;
+  }
+
+
+
+
+
+}
+
+
+
+
